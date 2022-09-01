@@ -1,0 +1,16 @@
+[http]
+	proxy = socks5://127.0.0.1:7890
+[https]
+	proxy = socks5://127.0.0.1:7890
+[user]
+	email = 70873652+ttl200000903@users.noreply.github..com
+	name = Dream lanter
+[core]
+	editor = vim
+[color]
+	ui = true
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
